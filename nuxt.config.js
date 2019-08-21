@@ -1,7 +1,13 @@
 
 export default {
   mode: 'universal',
-  buildModules: ['@nuxt/typescript-build'],
+  /*
+  ** Nuxt.js dev-modules
+  */
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxt/typescript-build'
+  ],
   /*
   ** Headers of the page
   */
@@ -29,13 +35,6 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-  ],
-  /*
-  ** Nuxt.js dev-modules
-  */
-  devModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
   ],
   /*
   ** Nuxt.js modules
