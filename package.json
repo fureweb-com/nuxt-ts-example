@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-ts-example",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "fureweb-com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.1.2",
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.9.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.1.10",
+    "@nuxtjs/eslint-config-typescript": "^0.1.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
